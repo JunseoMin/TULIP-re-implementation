@@ -27,4 +27,4 @@ args=(
     --in_chans 1
     )
 
-torchrun --nproc_per_node=1 tulip/main_lidar_upsampling.py "${args[@]}"
+torchrun --nproc_per_node=1 main_lidar_upsampling.py "${args[@]}"
